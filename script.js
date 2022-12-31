@@ -3,6 +3,15 @@ const container = document.getElementsByClassName("container")[0];
 var current = new Date();
 var current_hour = parseInt(current.getHours());
 console.log(current_hour);
+passTime();
+setInterval(passTime, 1000);
+
+function passTime() {
+   const time = new Date()
+   document.getElementById('currentTime').innerHTML = time.toLocaleString();
+}
+
+
 const hours = ["09", "10", "11", "12", "13", "14", "15", "16", "17"];
 
 function renderPage() {
