@@ -25,9 +25,19 @@ function renderPage() {
  </div>
  <textarea class="${getColor(hours[i])} col-md-10 description">
  </textarea>
- <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>`;
+ <button id="btn-${hours[i]}" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>`;
     container.appendChild(aDiv);
   }
+   
+   const buttonsCollection = document.getElementsByClassName('btn')
+   const buttons = Array.from(buttonsCollection)
+   buttons.forEach(button => {
+      button.addEventListener('click', () => {
+         console.log(button.id);
+         localStorage.setItem(button.id, button.previousElementSibling.value);
+         console.log(button.previousElementSibling.value);
+      });
+   });
 }
 
 renderPage();
