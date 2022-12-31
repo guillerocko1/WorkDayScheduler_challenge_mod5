@@ -1,5 +1,8 @@
 const container = document.getElementsByClassName("container")[0];
 
+var current = new Date();
+var current_hour = parseInt(current.getHours());
+console.log(current_hour);
 const hours = ["09", "10", "11", "12", "13", "14", "15", "16", "17"];
 
 function renderPage() {
@@ -11,7 +14,7 @@ function renderPage() {
     aDiv.innerHTML = `<div class="col-md-1 hour">
    ${getTime(hours[i])}
  </div>
- <textarea class="col-md-10 description">
+ <textarea class="${getColor(hours[i])} col-md-10 description">
  </textarea>
  <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>`;
     container.appendChild(aDiv);
@@ -19,6 +22,16 @@ function renderPage() {
 }
 
 renderPage();
+
+function getColor(hour) {
+   if (hour < current_hour) 
+      return 'past';
+   else if (hour == current_hour)
+      return 'present';
+   else
+      return 'future';
+   }
+
 
 function getTime(hour) {
    switch (hour) {
