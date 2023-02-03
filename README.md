@@ -32,6 +32,9 @@ The app contains, html, css and javaScript.
 ![Scheduler image](https://github.com/guillerocko1/WorkDayScheduler_challenge_mod5/image/scheduler.png?raw=true "Scheduler Data title")
 
 
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_Categories:6.png?raw=true)]
+
+
 
 ## Author: Guillermo Hernandez 
 
