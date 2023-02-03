@@ -1,5 +1,19 @@
 # Work Day Scheduler Challenge
 
+<div id="badges" align="center">
+  <img src="https://komarev.com/ghpvc/?username=guillerocko1&style=flat-square&color=blue" alt=""/>
+ </div>
+
+<h1 align="center">
+  hey there
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+</div>
+
+
 Third-Party APIs Challenge: Work Day Scheduler
 This activity require to Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
