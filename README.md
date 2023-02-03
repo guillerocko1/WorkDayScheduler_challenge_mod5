@@ -15,7 +15,7 @@ The app contains, html, css and javaScript.
 
 
 
-## Author: Guillermo Hernandez
+## Author: Guillermo Hernandez 
 
 Github Link: https://github.com/guillerocko1
 
