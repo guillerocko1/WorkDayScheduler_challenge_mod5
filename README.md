@@ -11,8 +11,7 @@ This work Day Scheduler allows us to add any activity in a specific time of the 
 The app contains, html, css and javaScript.
 
 
-![result_screen][(https://github.com/guillerocko1/
-WorkDayScheduler_challenge_mod5/image/scheduler.png?raw=true)]
+![result_screen][(https://github.com/guillerocko1/WorkDayScheduler_challenge_mod5/image/scheduler.png?raw=true)]
 
 
 
