@@ -29,7 +29,7 @@ The app contains, html, css and javaScript.
 
 ![Model][(https://github.com/guillerocko1/WorkDayScheduler_challenge_mod5/main/image/scheduler.png?raw=true)]
 
-
+![Employee data](/WorkDayScheduler_challenge_mod5/assets/image/scheduler.png?raw=true "Employee Data title")
 
 
 
